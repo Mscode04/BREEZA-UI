@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+   box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.black-body{
+    background-color: black;
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.pro{
+    background-color: rgba(90, 87, 87, 0.486);
+    border-radius: 10px;
+    margin: 10px ;
+    padding: 10px;
+}
+.chat{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    display: flex;
+    
+}
+.up img{
+    height: 50px;
+}
+.up{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.up button{
+    height:30px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(75, 240, 97);
+    width: 50px;
+}
+.down{
+    display: flex;
+    justify-content: center;
+}
+.down button{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.theme{
+    display: flex;
+    justify-content: space-around;
+}
+.theme button{
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(16, 16, 16);
+    border: 0;
+    color: aliceblue;
+}
+.black-body h5{
+    color: aliceblue;
+}
+h5 #a{
+    color: rgb(136, 136, 136);
+}
+h5 #b{
+    color: blueviolet;
+}
+h5 #c{
+    color: rgb(43, 171, 226);
+}
+h5 #d{
+    color: rgb(226, 119, 43);
+}
+h5 #e{
+    color: rgb(226, 119, 43);
+}
+h5 #f{
+    color:blueviolet;
+}
+.body-2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100vh;
+    width: 60%;
+}
+.boxs{
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    width: 60%;
+    height: 100px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px ;
+    justify-content: space-between;
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 10px;
+}
+.boxs img{
+    height: 50px;
+}
+
+.btn12 textarea{
+    width: 90%;
+    
+    border-radius: 10px;
+}
+
+.btn12{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+.body-2 button{
+    background-color: rgb(29, 115, 227);
+    border: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    
+}
+.body-3{
+    background-color: rgb(243, 243, 243);
+    margin-top: 0;
+    padding-top: 20px;
+    height: 100vh;
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.body-3 h6{
+    margin-left: 30px;
+}
+.img1 img{
+    margin-top: 20px;
+    height: 100px;
+    border-radius: 6px;
+}
+.img2 img{
+    margin-top: 10px;
+    height: 35px;
+}
+
+.body-3 button{
+    background-color: rgb(53, 124, 177);
+    border: 0;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+}
